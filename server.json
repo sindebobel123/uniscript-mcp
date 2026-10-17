@@ -1,22 +1,14 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "app.uniscript/carousels",
-  "title": "Uniscript",
-  "description": "Create TikTok/Instagram carousels, edit them layer by layer, export layered PSD and SVG.",
-  "version": "1.0.0",
+  "title": "Uniscript — AI Carousel Maker",
+  "description": "Finished TikTok/Instagram carousels from a topic, photos or video. Edit any layer, export PSD/SVG.",
+  "version": "1.1.0",
   "websiteUrl": "https://uniscript.app/mcp/",
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://us-central1-contentum-97362.cloudfunctions.net/carousel/mcp",
-      "headers": [
-        {
-          "name": "Authorization",
-          "description": "Bearer usk_… key from carousel.uniscript.app → profile → Connect API",
-          "isRequired": true,
-          "isSecret": true
-        }
-      ]
+      "url": "https://us-central1-contentum-97362.cloudfunctions.net/carousel/mcp"
     }
   ],
   "repository": {
