@@ -26,7 +26,7 @@ Carousels are the most saved post format on Instagram and TikTok — and the mos
 The server is remote — nothing to install. Endpoint:
 
 ```
-https://us-central1-contentum-97362.cloudfunctions.net/carousel/mcp
+https://carousel.uniscript.app/mcp
 ```
 
 Your client opens a Uniscript sign-in page (OAuth) — approve access and you're in. Requires a Uniscript plan (Starter, Pro or Agency).
@@ -35,8 +35,8 @@ Your client opens a Uniscript sign-in page (OAuth) — approve access and you're
 |---|---|
 | Claude (web / desktop) | Settings → Connectors → Add custom connector → paste the endpoint |
 | ChatGPT | Settings → Apps & Connectors → Advanced settings → Developer mode → Create → paste the endpoint |
-| Claude Code | `claude mcp add --transport http uniscript https://us-central1-contentum-97362.cloudfunctions.net/carousel/mcp` |
-| Cursor | `~/.cursor/mcp.json` → `{"mcpServers":{"uniscript":{"url":"https://us-central1-contentum-97362.cloudfunctions.net/carousel/mcp"}}}` |
+| Claude Code | `claude mcp add --transport http uniscript https://carousel.uniscript.app/mcp` |
+| Cursor | `~/.cursor/mcp.json` → `{"mcpServers":{"uniscript":{"url":"https://carousel.uniscript.app/mcp"}}}` |
 | Other clients | Remote MCP server, Streamable HTTP, the endpoint above |
 
 No OAuth in your client? Get a personal link in the app — [carousel.uniscript.app](https://carousel.uniscript.app/) → profile menu → **Connect API** — and use it instead (or send `Authorization: Bearer usk_…`).

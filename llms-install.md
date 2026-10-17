@@ -2,8 +2,8 @@
 
 Uniscript is a **remote** MCP server — nothing to clone, build or run locally.
 
-1. Easiest: add the endpoint `https://us-central1-contentum-97362.cloudfunctions.net/carousel/mcp` — the client opens Uniscript's OAuth sign-in and the user approves access. If the client has no OAuth support, ask the user for their Uniscript connection link. They get it at https://carousel.uniscript.app → profile menu → **Connect API** → **Get my link** (requires a Starter, Pro or Agency plan). It looks like:
-   `https://us-central1-contentum-97362.cloudfunctions.net/carousel/mcp/usk_…`
+1. Easiest: add the endpoint `https://carousel.uniscript.app/mcp` — the client opens Uniscript's OAuth sign-in and the user approves access. If the client has no OAuth support, ask the user for their Uniscript connection link. They get it at https://carousel.uniscript.app → profile menu → **Connect API** → **Get my link** (requires a Starter, Pro or Agency plan). It looks like:
+   `https://carousel.uniscript.app/mcp/usk_…`
 2. Add it as a remote server (Streamable HTTP). For Cline, in `cline_mcp_settings.json`:
 
 ```json
@@ -11,7 +11,7 @@ Uniscript is a **remote** MCP server — nothing to clone, build or run locally.
   "mcpServers": {
     "uniscript": {
       "type": "streamableHttp",
-      "url": "https://us-central1-contentum-97362.cloudfunctions.net/carousel/mcp/usk_YOUR_KEY"
+      "url": "https://carousel.uniscript.app/mcp/usk_YOUR_KEY"
     }
   }
 }
