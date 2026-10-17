@@ -1,6 +1,6 @@
 # Uniscript MCP — AI Carousel Maker for TikTok & Instagram
 
-**Stop spending an hour per carousel in Canva.** Tell Claude, ChatGPT, Cursor or Codex what you need and get a finished, scroll-stopping TikTok / Instagram carousel in about 40 seconds — then fix any detail by just asking.
+**Stop spending an hour per carousel in Canva.** Tell Claude, ChatGPT, Cursor or Codex what you need and get a finished, scroll-stopping TikTok / Instagram carousel in about 20–30 seconds — then fix any detail by just asking.
 
 <p><img src="assets/mcp_01.webp" width="160"> <img src="assets/mcp_02.webp" width="160"> <img src="assets/mcp_03.webp" width="160"> <img src="assets/mcp_04.webp" width="160"></p>
 
